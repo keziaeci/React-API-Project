@@ -3,7 +3,7 @@ import { Link, useParams } from 'react-router-dom'
 import Stack from '@mui/material/Stack';
 import LinearProgress from '@mui/material/LinearProgress';
 
-export const Home = () => {
+export const HomeBible = () => {
     const [getData , setData] = useState([])
     const [getLoad, setLoad] = useState(false)
 
@@ -79,4 +79,4 @@ export const Home = () => {
 
 }
 
-export default Home
+export default HomeBible
